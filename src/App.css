@@ -1,0 +1,34 @@
+:root {
+    --color1: #1b2651;
+    --color2: #cd2028;
+    --color3: #edeae1;
+    --color4: #166c96;
+   
+  }
+  body{
+    background-color: var(--color4);
+  }
+.createinput{
+    width:250px;
+    padding:0.5rem;
+    border-radius: 0.4rem;
+    border:none;
+}
+.createbttn{
+    margin-left: 1%;
+    color:var(--color3);
+    padding:0.6rem;
+    border-radius: 3rem;
+}
+.createbttn:hover{
+    background-color:var(--color2);
+
+}
+.removetask{
+  color: white;
+  padding:0.3rem;
+  
+}
+.removetask:hover{
+color:var(--color1);
+}
