@@ -49,7 +49,7 @@ function App() {
         <li className="nav-item ">
         <a
             className={`nav-link fs-5 text-dark ${activeTab === 'active' ? 'active bg-grey' : ''}`}
-            
+            style={{ height: '100%' }}
             onClick={() => handleTabClick('active')}
           >
           Active</a> 
@@ -57,7 +57,7 @@ function App() {
         <li className="nav-item">
         <a
             className={`nav-link fs-5 text-dark ${activeTab === 'completed' ? 'active bg-grey' : ''}`}
-            
+            style={{ height: '100%' }}
             onClick={() => handleTabClick('completed')}
           >
           Completed tasks</a> 
