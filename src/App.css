@@ -20,6 +20,10 @@
     padding:0.6rem;
     border-radius: 3rem;
 }
+@media screen and (max-width: 768px) {
+  .createinput{
+    width:50%;
+}
 .createbttn:hover{
     background-color:var(--color2);
 
