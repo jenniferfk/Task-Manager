@@ -60,7 +60,7 @@ function App() {
             style={{ height: '100%' }}
             onClick={() => handleTabClick('completed')}
           >
-          Completed tasks</a> 
+          Completed </a> 
         </li>
       </ul>
       {loading ? (
