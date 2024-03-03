@@ -37,4 +37,6 @@ Task Prioritization.
 Task Notes.
 
 
-## Deployment:The deployment of this application was made through netifly.
+## Deployment:
+
+The deployment of this application was made through netifly.
