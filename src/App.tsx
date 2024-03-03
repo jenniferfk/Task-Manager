@@ -44,7 +44,11 @@ function App() {
 
   return (
     <>
-    <div className='container maindiv mt-5 border'>
+   <div className='d-flex flex-column align-items-center justify-content-center container mt-3'>
+      <h1 className="mb-4 text-white">Task Manager</h1>
+      <p className="fw-bold text-white">Create and manage your tasks to keep track of your completed and active ones!</p>
+    </div>
+    <div className='container maindiv mt-5 border p-0'>
       <ul className="nav nav-tabs nav-justified">
         <li className="nav-item ">
         <a
